@@ -175,7 +175,6 @@ export function AppHeader({ breadcrumbs = [] }: AppHeaderProps) {
               </div>
             </div>
 
-            {/* 🔽 ユーザーメニュー (`DropdownMenu`) の復元 🔽 */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="size-10 rounded-full p-1">
