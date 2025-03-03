@@ -12,6 +12,7 @@ import AuthLayout from '@/layouts/auth-layout';
 import { useLaravelReactI18n } from 'laravel-react-i18n';
 
 interface RegisterForm {
+  [key: string]: string;
   name: string;
   email: string;
   password: string;

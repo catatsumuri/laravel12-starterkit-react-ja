@@ -12,6 +12,7 @@ import AuthLayout from '@/layouts/auth-layout';
 import { useLaravelReactI18n } from 'laravel-react-i18n';
 
 interface LoginForm {
+  [key: string]: string | boolean;
   email: string;
   password: string;
   remember: boolean;
